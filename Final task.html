@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Final task.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="gallery.js"></script>
+</head>
+<body>
+    <header class="global-nav">
+        <h1 id="title">Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#title">top</a></li>
+                <li><a href="#self-introduction">self-introduction</a></li>
+                <li><a href="#achievement">achievement</a></li>
+                <li><a href="#footer">footer</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="wrapper">
+        <div class="container">
+            <div class="content">
+                <div class="content-item">
+                    <div data-tilt></div>
+                    <script src="Final task.js"></script>
+                    <img id="img1" src="img/over1.jpg" onmouseover="mouseOn();" onmouseout="mouseOff();" />
+                </div>    
+                <div class="content-item">
+                    <div class="text">
+                        <h2 id="self-introduction">Profile</h2>
+                        <p>愛知工業大学情報科学部メディア情報専攻　太田　匠海</p>
+                        <p>使用できるソフト:adobe製品(AfterEffect,PremierePro,Photoshop,XD),VisualStudioCode,Live2D</p>
+                        <p>簡単な映像編集や宣伝用ポスターの作成なども可能で、配信活動でサムネ作りなどもしています</p>
+                        <p>マウスオーバーでサムネを表示(今回はモザイクかけてます)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="performance">
+        <h3 id="achievement">活動実績(作品•ファンアート紹介)</h3>
+        <div class="pictures">
+            <div class="thumnail-left-box">
+                <img src="img/chocomint2.jpg">
+                <p class="left-text">使用しているLive2Dモデル(モザイクあり)</p>
+            </div>
+            <ul class="thumnail-right-box pictures">
+                
+                <li><img src="img/chocomint3.jpg"><p>頂いたファンアート1</p></li>
+                <li><img src="img/chocomint4.jpg"><p>頂いたファンアート2</p></li>
+                <li><img src="img/chocomint5.jpg"><p>頂いたファンアート3</p></li>
+                <li><img src="img/chocomint6.jpg"><p>頂いたファンアート4</p></li>
+                <li><img src="img/chocomint7.jpg"><p>頂いたファンアート5</p></li>
+                <li><img src="img/chocomint8.jpg"><p>頂いたファンアート6</p></li>
+            </ul>
+        </div>
+    </section>
+    <footer id="footer">
+        <h4>連絡先•活動先について(メール以外はダミーを置いてあります)</h4>
+        <div>
+            <ul class="social">
+                <li><a href="mailto:x18017xx@aitech.ac.jp"><i class="far fa-envelope"></i></a></li>
+                <li><a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a></li>
+            </ul> 
+        </div>
+    </footer>
+</body>
+</html>
